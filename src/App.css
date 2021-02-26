@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: #282834;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Chatbox {
+  max-width: 400px;
+}
