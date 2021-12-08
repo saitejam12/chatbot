@@ -12,8 +12,9 @@ class ActionProvider {
     }));
   };
 
+  handleOptions = () => {};
   greet = () => {
-    const message = this.createChatBotMessage('Hello there', { delay: 20 });
+    const message = this.createChatBotMessage('Well Hello there', { delay: 20 });
     this.addChatBotMessageToState(message);
   };
 }
